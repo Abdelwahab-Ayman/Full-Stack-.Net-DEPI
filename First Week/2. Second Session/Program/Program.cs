@@ -47,7 +47,7 @@ internal class Program
         Console.WriteLine("Enter your grade: ");
 
         grade = int.Parse(Console.ReadLine());
-        if(grade >= 85)
+        if (grade >= 85)
         {
             Console.WriteLine("You got an A");
 
@@ -68,5 +68,7 @@ internal class Program
         {
             Console.WriteLine("You failed");
         }
+        ;
         #endregion
     }
+}
