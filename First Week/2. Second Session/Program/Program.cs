@@ -36,6 +36,20 @@ internal class Program
 
 
         #endregion
+        #region logical operators && , ||
+
+
+
+        #endregion
+        #region ternary operator
+        int x = 10;
+        int y = 20;
+        //condition ? true : false
+
+        int z = y > x ? y : x;
+        Console.WriteLine(z);
+
+        #endregion
 
     }
 }
